@@ -1,10 +1,13 @@
-# Everything in this section will be available as an environment variable
-db_username = "Hiromu"
-db_password = "mumuHiro15"
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
 
-# You can also add other sections if you like.
-# The contents of sections as shown below will not become environment
-# variables, but they'll be easily accessible from within Streamlit anyway
-# as we show later in this doc.
-[my_cool_secrets]
-things_i_like = ["Dog", "Mimi"]
+[theme]
+base = "light"
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f0f5"
+textColor = "#000000"
+font = "sans serif"
